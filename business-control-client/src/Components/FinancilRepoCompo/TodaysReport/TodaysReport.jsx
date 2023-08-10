@@ -10,7 +10,7 @@ const TodaysReport = () => {
 				<div className='w-[40%] '>
 					<Income taka={5000.00} green={true}/>
 				</div>
-				<div className='w-[150px] left-1/2 -translate-x-1/2 absolute bg-blue-500 h-[150px] rounded-full flex items-center justify-center'>
+				<div className='w-[100px] md:w-[150px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 absolute bg-blue-500 h-[100px] md:h-[150px] rounded-full flex items-center justify-center'>
 					<Revenue revenue={5} profet={true}/>
 				</div>
 				<div className='w-[40%] '>

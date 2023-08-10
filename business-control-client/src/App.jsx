@@ -11,7 +11,7 @@ function App() {
   
   return (
 		<div className='flex '>
-			<div className='w-[15%]'>
+			<div className='w-[15%] hidden md:block'>
 				<SidNavBar />
 			</div>
 

@@ -21,14 +21,10 @@ body {
 
 .green-trangle{
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  width: 20px;
-  height: 20px;
   background-color: var(--green-color);
 }
 .red-trangle{
   clip-path: polygon(49% 100%, 0 0, 99% 0);
-  width: 20px;
-  height: 20px;
   background-color: var(--danger-color);
 }
 
