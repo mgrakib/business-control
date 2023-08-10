@@ -1,0 +1,33 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-bg: #16113a;
+	--secondary-bg: #272953;
+
+	--green-color: #0ed354;
+	--danger-color: #fc5c6a;
+	--brand-color: #01d1ff;
+	--gray-color: #ced0d9;
+}
+
+body {
+	background-color: #16113a;
+}
+
+
+.green-trangle{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--green-color);
+}
+.red-trangle{
+  clip-path: polygon(49% 100%, 0 0, 99% 0);
+  width: 20px;
+  height: 20px;
+  background-color: var(--danger-color);
+}

@@ -1,0 +1,15 @@
+.progress-after::after{
+    content: "";
+    height: 75%;
+    width: 75%;
+    background-color: var(--primary-bg);
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* .green-progress{
+    background-image: conic-gradient(#01D1FF 0deg, #01D1FF 18deg, #CED0D9 18deg, #CED0D9 180deg);
+}
+.red-progress{
+    background-image: conic-gradient(#fc5c6a 0deg, #fc5c6a 18deg, #CED0D9 18deg, #CED0D9 180deg);
+} */

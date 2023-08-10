@@ -1,0 +1,11 @@
+.green-after::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #0ed354;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+    bottom: -5px;
+    z-index: 30;
+}
