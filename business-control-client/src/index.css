@@ -31,3 +31,15 @@ body {
   height: 20px;
   background-color: var(--danger-color);
 }
+
+::-webkit-scrollbar{
+  
+  width: 6px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: var(--gray-color);
+}

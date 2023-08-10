@@ -1,3 +1,4 @@
+import LastFifteenDays from "../../Components/FinancilRepoCompo/LastFifteenDays/LastFifteenDays";
 import TodaysReport from "../../Components/FinancilRepoCompo/TodaysReport/TodaysReport";
 import YesterDayReport from "../../Components/FinancilRepoCompo/YesterDayReport/YesterDayReport";
 
@@ -13,6 +14,8 @@ const FinantialReport = () => {
 				<div className='w-[50%] flex flex-col gap-10'>
                     <TodaysReport />
                     <YesterDayReport />
+                    <LastFifteenDays />
+                    <LastFifteenDays />
 				</div>
 
 				{/* month report */}

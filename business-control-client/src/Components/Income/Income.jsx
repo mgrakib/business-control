@@ -4,7 +4,7 @@ const Income = ({ taka, green}) => {
     return (
 		<div className='bg-secondary-bg  rounded-md text-center text-gray-color'>
 			<div className='p-2 border-b border-primary-bg'>
-				<p className='text-[18px] '>Total Incom</p>
+				<p className='text-[18px] '>Total Income</p>
 			</div>
 			<div
 				className={`flex items-end gap-1 justify-center  mt-2 relative  ${

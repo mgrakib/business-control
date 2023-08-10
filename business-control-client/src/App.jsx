@@ -15,7 +15,7 @@ function App() {
 				<SidNavBar />
 			</div>
 
-			<div className='flex-1'>
+			<div className='flex-1  h-screen overflow-y-auto'>
 				<Outlet />
 			</div>
 		</div>
